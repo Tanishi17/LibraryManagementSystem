@@ -13,6 +13,8 @@ public class Library {
 
 public void viewBooks() {
 
+    System.out.println("DEBUG: Inside viewBooks()");
+
     if (books.isEmpty()) {
     System.out.println("Library is empty.");
     return;
