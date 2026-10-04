@@ -30,6 +30,10 @@ public boolean isIssued() {
     return isIssued;
 }
 
+public void setIssued(boolean issued) {
+    this.isIssued = issued;
+}
+
 @Override
 public String toString() {
     return "ID: " + id +
